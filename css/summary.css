@@ -1,0 +1,26 @@
+.poli-main {
+    position: absolute;
+    width: 300px;
+    right: 5rem;
+    font-family: din-2014,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.highlight {
+    padding: .5rem;
+    letter-spacing: 2px;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+    cursor: pointer;
+}
+
+.poli-body {
+    margin-top: 0.5rem;
+    padding: .5rem;
+    font-size: 10pt;
+    font-family: din-2014,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.question {
+    padding-bottom: .5rem;
+}

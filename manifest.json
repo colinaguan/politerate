@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Politerate",
+    "description": "Description of first chrome extension",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "images/image.png",
+        "default_popup": "index.html",
+        "default_title": "Politerate"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "<all_urls>",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/jquery.js",
+                "js/content.js",
+                "js/database.js"
+            ],
+            "css": [
+                "css/summary.css"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "questions": [
+        {
+            "user_id": "colina_g",
+            "text_highlight": "Medicare for All",
+            "body": "Anyone have a TL;DR for this? Heard of it a lot during debates, but I only have a vague idea.",
+            "help_num": 10,
+            "comments": [
+                {
+                    "user_id": "buttonedup",
+                    "body": "Medicare for All is a single-payer health care plan. Some of its benefits include no deductibles, no copayments, nd no premiums.",
+                    "help_num": 0
+                },
+                {
+                    "user_id": "colina_g",
+                    "body": "I'm honestly still confused.",
+                    "help_num": 5
+                }
+            ]
+        }
+    ]
+}
