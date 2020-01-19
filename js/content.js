@@ -7,7 +7,7 @@ newNode.className = "poli-main";
 newNode.innerHTML = '<div class="poli-header">' +
     '<button class="highlight">HIGHLIGHT A TOPIC</button>' +
     '</div>' +
-    '<div class="poli-body">' +
+    '<div class="poli-body" id="polibody">' +
     '<h5 class="question">"...moderate voters remain skeptical..."</h5>' +
     '<h5 class="question">"...Medicare For All..."</h5>' +
     '<h5 hidden id="hidden-q" class="question">"...single-payer..."</h5>' +
@@ -21,6 +21,10 @@ $(".highlight").click(function () {
     var highlight = window.getSelection().toString();
     console.log(highlight);
     document.getElementById("hidden-q").hidden = false;
+    // var ques = document.createElement("h5");
+    // ques.className = "question";
+    // ques.innerText = '"...' + highlight + '..."';
+    // document.getElementById("#polibody").appendChild(ques);
     // if (highlight === "")
     //     updateData();
 });
