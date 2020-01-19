@@ -9,20 +9,44 @@ body {
     width: 400px;
     height: 1280px;
     overflow:auto;
-    margin: 0px;
-    padding: 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-#no-padding{
-    padding: 0px;
-    margin: 0px;
+.row {
+    margin-left: 0rem;
+    margin-right: 0rem;
 }
 
-.card-image{
-    width: 40%;
+.popup-header {
+    margin-bottom: 2rem;
+    padding: .5rem;
 }
 
-#links{
-    overflow:auto;
-    padding: 0px;
+.q-card {
+    width: auto;
+    height: 8rem;
+    margin-bottom: 3rem;
+    background-clip: border-box;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+}
+
+.q-title {
+    font-family: din-2014,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: .2rem;
+    line-height: 1.5;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.btn-view-comm {
+    position: absolute;
+    font-family: din-2014,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: .2rem;
+    left: 2.5rem;
+    width: 370px;
+    font-size: 12px;
+    border-radius: 0px 0px .25rem .25rem;
 }

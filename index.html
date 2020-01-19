@@ -20,10 +20,46 @@
 <body>
     <div class="container-fluid main">
 
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            Launch demo modal
-        </button>
+        <div class="popup-header row">
+            <h3>Highlighted Topics</h3>
+        </div>
+
+        <div class="row">
+            <!-- cards -->
+            <!-- <div class="card" style="width: 20rem">
+                <div class="card-body">
+                    <h5 class="card-title">Title</h5>
+                    <p class="card-text"></p>
+                    <button type="button" class="btn btn-warning btn-view-comm">View Comments</button>
+                </div>
+            </div> -->
+            <div class="card q-card">
+                <div class="card-body">
+                    <h5 class="card-title q-title">"...MODERATE VOTERS..."</h5>
+                    <button type="button" class="btn btn-warning btn-view-comm">VIEW COMMENTS</button>
+                </div>
+            </div>
+
+            <div class="card q-card">
+                <div class="card-body">
+                    <h5 class="card-title q-title">"...MEDICARE FOR ALL..."</h5>
+                    <button type="button" class="btn btn-warning btn-view-comm" data-toggle="modal"
+                        data-target="#exampleModal">VIEW COMMENTS</button>
+                </div>
+            </div>
+
+            <div class="card q-card">
+                <div class="card-body">
+                    <h5 class="card-title q-title">"...SINGLE-PAYER SYSTEM..."</h5>
+                    <button type="button" class="btn btn-warning btn-view-comm">VIEW COMMENTS</button>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Launch demo modal
+            </button> -->
+        </div>
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -31,17 +67,20 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">"...MEDICARE FOR ALL..."</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <div class="comm-body">
+                            <p class="comm-user">kayliao</p>
+                            <p class="comm-text">Anyone have a TL;DR for this? Heard of it a lot during debates, but I
+                                only have a vague idea.</p>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>

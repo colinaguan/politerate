@@ -8,6 +8,7 @@ newNode.innerHTML = '<div class="poli-header">' +
     '<button class="highlight">HIGHLIGHT A TOPIC</button>' +
     '</div>' +
     '<div class="poli-body">' +
+    '<h5 class="question">"...moderate voters remain skeptical..."</h5>' +
     '<h5 class="question">"...Medicare For All..."</h5>' +
     '<h5 hidden id="hidden-q" class="question">"...single-payer..."</h5>' +
     '</div>';

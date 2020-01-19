@@ -6,6 +6,7 @@
 }
 
 .highlight {
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
     padding: .5rem;
     letter-spacing: 2px;
     background-color: #fff3cd;
@@ -15,7 +16,7 @@
 }
 
 .poli-body {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     padding: .5rem;
     font-size: 10pt;
     font-family: din-2014,Helvetica Neue,Helvetica,Arial,sans-serif;
